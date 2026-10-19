@@ -1,0 +1,30 @@
+################UCSC Genome Browser
+TP53
+chr17:7,673,797-7,673,808
+R273L
+
+######################################
+surface
+
+select hydrophobic
+color sel gold
+
+select hydrophilic
+color sel skyblue
+
+
+select acidic
+color sel red
+
+select basic
+color sel blue
+
+
+###########electrostatic surface#########################################
+
+addh
+addcharge
+surface
+coulombic
+coulombic range -10,10
+
